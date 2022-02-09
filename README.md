@@ -1,0 +1,2 @@
+# GOSTcontract
+GOST smartcontract
