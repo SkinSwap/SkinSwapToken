@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-//CSGO SKIN TOKEN (GOST) 
+//SkinSwap Token(GOST)
 
 // File @openzeppelin/contracts/utils/Context.sol@v4.1.0
 
@@ -610,11 +610,11 @@ abstract contract ERC20Burnable is Context, ERC20 {
 
 // File contracts/ERC20Token.sol
 
-contract GOSkinToken is ERC20Burnable, Ownable {
+contract SkinSwapToken is ERC20Burnable, Ownable {
     bool public txLimitEnabled = true;
     uint256 public _maxTxAmount = type(uint256).max;
 
-    constructor() ERC20("GOSkinToken", "GOST") {
+    constructor() ERC20("SkinSwap Token", "GOST") {
         _mint(msg.sender, 21082012 * 10**decimals());
         _burn(msg.sender, 1082012 * 10**decimals());
     }
