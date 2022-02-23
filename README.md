@@ -1,2 +1,2 @@
-# GOSTcontract
-GOST smartcontract
+# SkinSwap Token (GOST)
+GOST smart contract
